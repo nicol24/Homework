@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Spoofy | Home</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="main-playing">
+        <div class="cover-container">
+          <img id="imagenes" src="Java/imagenes/all star.jpg" />
+          <img id="imagenes" src="Java/imagenes/hello.jpeg" />
+          <img id="imagenes" src="Java/imagenes/bring me to life.jpg" />
+          <img id="imagenes" src="Java/imagenes/arcade.jpg" />
+          <img id="imagenes" src="Java/imagenes/cant help falling in love.jpg" />
+          <img id="imagenes" src="Java/imagenes/levitating.jpg" />
+          <img id="imagenes" src="Java/imagenes/hot n cold.jpg" />
+        </div>
+        <div class="progress-bar">
+          <input id="progress-bar" value="0" type="range" min="0" />
+        </div>
+        <div class="data-song-container">
+          <h1 id="title-song">...</h1>
+          <p id="artist-song">...</p>
+        </div>
+
+        <div class="controls-container">
+          <button id="prev-btn">Anterior</button>
+          <button id="play-btn">Play</button>
+          <button id="next-btn">Siguiente</button>
+        </div>
+      </div>
+      <div class="list-song-container" id="list-song-container"></div>
+      <div>
+        <input id="buscar" type="text" />
+      </div>
+    </div>
+    <audio id="audio" src="Java/Audios/All Star.mp3"></audio>
+    <audio id="audio" src="Java/Audios/Adele - Hello.mp3"></audio>
+    <audio id="audio" src="Java/Audios/Bring Me To Life.mp3"></audio>
+    <audio id="audio" src="Java/Audios/Arcade.mp3"></audio>
+    <audio id="audio" src="Java/Audios/Elvis Presley - Can t Help Falling In Love (Official Audio).mp3"></audio>
+    <audio id="audio" src="Java/Audios/Dua Lipa - Levitating (Official).mp3"></audio>
+    <audio id="audio" src="Java/Audios/Katy Perry - Hot N Cold (Audio).mp3"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
